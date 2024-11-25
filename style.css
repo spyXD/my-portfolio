@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #5677fc;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #5677fc;
+    color: #fff;
+}
+nav {
+    background: #738ffe; /* พื้นหลังสีเข้ม */
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none; /* ลบจุดหน้ารายการ */
+    margin: 0;
+    padding: 0;
+    display: flex; /* จัดให้อยู่ในแถวเดียวกัน */
+    justify-content: center; /* จัดให้อยู่ตรงกลาง */
+}
+
+nav ul li {
+    margin: 0 15px; /* เพิ่มระยะห่างระหว่างรายการ */
+}
+
+nav ul li a {
+    text-decoration: none; /* ลบเส้นใต้ */
+    color: white; /* สีข้อความ */
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: 0.3s; /* เพิ่มเอฟเฟกต์เมื่อเมาส์ชี้ */
+}
+
+nav ul li a:hover {
+    background: #1a237e; /* สีพื้นหลังเมื่อชี้เมาส์ */
+    border-radius: 5px; /* มุมโค้ง */
+    color: #080808; /* สีข้อความเมื่อชี้เมาส์ */
+}
